@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ol.carousel-indicators.changeol {
+	flex-direction: column;
+	margin: unset;
+	bottom: unset;
+
+}
+
+
+.lentop{
+	position: fixed;
+	top: 90%;
+	right: 5%;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	background-color: pink;
+}
+
+
+
+body{
+	transition: 2s;
+}
+
+
+.chu{
+	width: 200px;
+	height: 150px;
+	overflow: scroll;
+	margin:0 auto;
+}
